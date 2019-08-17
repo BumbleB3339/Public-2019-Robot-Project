@@ -1,0 +1,914 @@
+{
+  "tabPane": [
+    {
+      "title": "Game",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "network_table:///SmartDashboard/Game/",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "4,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Climb Mode",
+              "_title": "Climb Mode"
+            }
+          },
+          "1,0": {
+            "size": [
+              1,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Game/Right",
+              "_title": "Right",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "0,0": {
+            "size": [
+              1,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Game/Left",
+              "_title": "Left",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "2,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Game/Cargoship",
+              "_title": "Cargoship",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "0,2": {
+            "size": [
+              2,
+              4
+            ],
+            "content": {
+              "_type": "List Layout",
+              "_title": "Rocket Height",
+              "Layout/Label position": "LEFT",
+              "_children": [
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/Game/Level 3",
+                  "_title": "Level 3",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/Game/Level 2",
+                  "_title": "Level 2",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/Game/Level 1",
+                  "_title": "Level 1",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                }
+              ]
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              4
+            ],
+            "content": {
+              "_type": "List Layout",
+              "_title": "Cargoship",
+              "Layout/Label position": "LEFT",
+              "_children": [
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/Game/Side",
+                  "_title": "Side",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/Game/Front",
+                  "_title": "Front",
+                  "Colors/Color when true": "#7CFC00FF",
+                  "Colors/Color when false": "#8B0000FF"
+                }
+              ]
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "List Layout",
+              "_title": "Game Piece",
+              "Layout/Label position": "HIDDEN",
+              "_children": [
+                {
+                  "_type": "Text View",
+                  "_source0": "network_table:///SmartDashboard/Game/ ",
+                  "_title": " "
+                },
+                {
+                  "_type": "Boolean Box",
+                  "_source0": "network_table:///SmartDashboard/Game/Game Piece",
+                  "_title": "Game Piece",
+                  "Colors/Color when true": "#FFFF00FF",
+                  "Colors/Color when false": "#FFA500FF"
+                }
+              ]
+            }
+          },
+          "6,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/IntakeArm Mode",
+              "_title": "IntakeArm"
+            }
+          },
+          "6,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/LiftArm Mode",
+              "_title": "LiftArm"
+            }
+          },
+          "6,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Lift Mode",
+              "_title": "Lift"
+            }
+          },
+          "6,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/ElementArm Mode",
+              "_title": "ElementArm"
+            }
+          },
+          "6,6": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Direction",
+              "_title": "Direction"
+            }
+          },
+          "0,6": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Gyro",
+              "_title": "Gyro"
+            }
+          },
+          "5,6": {
+            "size": [
+              1,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Gear",
+              "_title": "Gear"
+            }
+          },
+          "3,6": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Reset Gyro",
+              "_title": "SmartDashboard/Reset Gyro"
+            }
+          },
+          "4,4": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Action",
+              "_title": "Action"
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Game/RecordKeyEvent",
+              "_title": "RecordKeyEvent",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Hardware",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "11,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/IntakeArm/Angle",
+              "_title": "IntakeArm/Angle"
+            }
+          },
+          "11,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Elevator/Height",
+              "_title": "Elevator/Height"
+            }
+          },
+          "11,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/ElementArm/ActualAngle",
+              "_title": "ElementArm/ActualAngle"
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Climb/FrontLeftClimb Pot Value",
+              "_title": "FrontLeftClimb"
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Climb/FrontRightClimb Pot Value",
+              "_title": "FrontRightClimb"
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Climb/RearLeftClimb Pot Value",
+              "_title": "RearLeftClimb"
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Climb/RearRightClimb Pot Value",
+              "_title": "RearRightClimb"
+            }
+          },
+          "11,6": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/ControlledGamePiece/IR Distance",
+              "_title": "SmartDashboard/Debugging/ControlledGamePiece/IR Distance"
+            }
+          },
+          "13,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Debugging/Elevator/Bottom Switch",
+              "_title": "SmartDashboard/Debugging/Elevator/Bottom Switch",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "13,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/ElementArm/RawAngle",
+              "_title": "/SmartDashboard/Debugging/ElementArm/RawAngle"
+            }
+          },
+          "11,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/LiftArm/Actual Angle",
+              "_title": "/SmartDashboard/Debugging/LiftArm/Actual Angle"
+            }
+          },
+          "13,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/LiftArm/Raw Angle",
+              "_title": "/SmartDashboard/Debugging/LiftArm/Raw Angle"
+            }
+          },
+          "9,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/LiftArm/Potentiometer Voltage",
+              "_title": "/SmartDashboard/Debugging/LiftArm/Potentiometer Voltage"
+            }
+          },
+          "9,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/IntakeArm/Potentiometer Voltage",
+              "_title": "/SmartDashboard/Debugging/IntakeArm/Potentiometer Voltage"
+            }
+          },
+          "9,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/ElementArm/Potentiometer Voltage",
+              "_title": "/SmartDashboard/Debugging/ElementArm/Potentiometer Voltage"
+            }
+          },
+          "9,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Debugging",
+              "_title": "SmartDashboard/Debugging"
+            }
+          },
+          "9,6": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/NavX/Raw Yaw",
+              "_title": "/SmartDashboard/Debugging/NavX/Raw Yaw"
+            }
+          },
+          "5,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Command",
+              "_source0": "network_table:///SmartDashboard/Initialize climbers",
+              "_title": "SmartDashboard/Initialize climbers"
+            }
+          },
+          "5,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Turn Off LED",
+              "_title": "SmartDashboard/Turn Off LED"
+            }
+          },
+          "6,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Reset Gyro",
+              "_title": "SmartDashboard/Reset Gyro"
+            }
+          },
+          "13,6": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/SERVO",
+              "_title": "/SmartDashboard/SERVO"
+            }
+          },
+          "10,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Drivetrain/Left Encoder Ticks",
+              "_title": "/SmartDashboard/Debugging/Drivetrain/Left Encoder Ticks"
+            }
+          },
+          "12,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Debugging/Drivetrain/Right Encoder Ticks",
+              "_title": "/SmartDashboard/Debugging/Drivetrain/Right Encoder Ticks"
+            }
+          },
+          "6,7": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Debugging/Drivetrain/Is Drivetrain Stopped",
+              "_title": "SmartDashboard/Debugging/Drivetrain/Is Drivetrain Stopped",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "1,1": {
+            "size": [
+              3,
+              3
+            ],
+            "content": {
+              "_type": "Graph",
+              "_source0": "network_table:///SmartDashboard/Debugging/Drivetrain/Left Current",
+              "_title": "SmartDashboard/Debugging/Drivetrain/Left Current",
+              "Graph/Visible time": 30.0,
+              "Visible data/SmartDashboard/Debugging/Drivetrain/Left Current": true
+            }
+          },
+          "1,4": {
+            "size": [
+              3,
+              3
+            ],
+            "content": {
+              "_type": "Graph",
+              "_source0": "network_table:///SmartDashboard/Debugging/Drivetrain/Right Current",
+              "_title": "SmartDashboard/Debugging/Drivetrain/Right Current",
+              "Graph/Visible time": 30.0,
+              "Visible data/SmartDashboard/Debugging/Drivetrain/Right Current": true
+            }
+          },
+          "7,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Set 15 FPS",
+              "_title": "SmartDashboard/Set 15 FPS"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Vision",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "9,0": {
+            "size": [
+              4,
+              4
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/PixyTargetProvider",
+              "_title": "SmartDashboard/PixyTargetProvider"
+            }
+          },
+          "13,0": {
+            "size": [
+              6,
+              4
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/PixyVision",
+              "_title": "SmartDashboard/PixyVision"
+            }
+          },
+          "13,4": {
+            "size": [
+              6,
+              5
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/RobotLocator",
+              "_title": "SmartDashboard/RobotLocator"
+            }
+          },
+          "7,4": {
+            "size": [
+              6,
+              3
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/pixyObjectList",
+              "_title": "SmartDashboard/pixyObjectList"
+            }
+          },
+          "7,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Debugging",
+              "_title": "SmartDashboard/Debugging"
+            }
+          },
+          "7,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Enable Vision",
+              "_title": "SmartDashboard/Enable Vision"
+            }
+          },
+          "7,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Disable Vision",
+              "_title": "SmartDashboard/Disable Vision"
+            }
+          },
+          "1,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/alignOnTargetWallPower",
+              "_title": "SmartDashboard/AlignToTarget/Params/alignOnTargetWallPower"
+            }
+          },
+          "4,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/maxRotationPower_Chase",
+              "_title": "SmartDashboard/AlignToTarget/Params/maxRotationPower_Chase"
+            }
+          },
+          "1,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/maxRotationPower_General",
+              "_title": "SmartDashboard/AlignToTarget/Params/maxRotationPower_General"
+            }
+          },
+          "1,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/maxSlowdownPower",
+              "_title": "SmartDashboard/AlignToTarget/Params/maxSlowdownPower"
+            }
+          },
+          "1,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/minSlowdownPower",
+              "_title": "SmartDashboard/AlignToTarget/Params/minSlowdownPower"
+            }
+          },
+          "4,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/p_offsetAngle_Chase",
+              "_title": "SmartDashboard/AlignToTarget/Params/p_offsetAngle_Chase"
+            }
+          },
+          "4,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/p_offsetAngle_X",
+              "_title": "SmartDashboard/AlignToTarget/Params/p_offsetAngle_X"
+            }
+          },
+          "4,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/p_xDisplacement_X",
+              "_title": "SmartDashboard/AlignToTarget/Params/p_xDisplacement_X"
+            }
+          },
+          "1,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/proximityPower",
+              "_title": "SmartDashboard/AlignToTarget/Params/proximityPower"
+            }
+          },
+          "1,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Params/rotationBasePower",
+              "_title": "SmartDashboard/AlignToTarget/Params/rotationBasePower"
+            }
+          },
+          "2,6": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Current proximityMode",
+              "_title": "/SmartDashboard/AlignToTarget/Current proximityMode",
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "4,6": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/Current yPower",
+              "_title": "/SmartDashboard/AlignToTarget/Current yPower"
+            }
+          },
+          "3,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/current alignmentPhase",
+              "_title": "/SmartDashboard/AlignToTarget/current alignmentPhase"
+            }
+          },
+          "4,7": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/AlignToTarget/current rotationPower",
+              "_title": "/SmartDashboard/AlignToTarget/current rotationPower"
+            }
+          },
+          "5,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Start Pixy Block Program",
+              "_title": "SmartDashboard/Start Pixy Block Program"
+            }
+          },
+          "5,5": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Stop Pixy Block Program",
+              "_title": "SmartDashboard/Stop Pixy Block Program"
+            }
+          },
+          "3,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Restart Pixy",
+              "_title": "SmartDashboard/Restart Pixy"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Operation Logic",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "7,0": {
+            "size": [
+              6,
+              6
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Debugging/Commands",
+              "_title": "/SmartDashboard/Debugging/Commands"
+            }
+          },
+          "13,0": {
+            "size": [
+              4,
+              4
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Debugging/CurrentState",
+              "_title": "/SmartDashboard/Debugging/CurrentState"
+            }
+          },
+          "13,4": {
+            "size": [
+              4,
+              3
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Debugging/NextState",
+              "_title": "/SmartDashboard/Debugging/NextState"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": -7.0,
+    "y": 1.0,
+    "width": 1378.0,
+    "height": 726.0
+  }
+}
