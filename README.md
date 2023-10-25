@@ -4,8 +4,8 @@ The code is written in Java and uses WPILib's "Command based programming" design
 
 ## Key Features
 - State based operation of robot mechanisms - arms are coordinated and synchronized to not collide with each other.
-- Automatic alignment to vision targets using Pixy - custom self implemented algorithems to calculate robot position (x, y, theta) relative to the targets.
-- Autonomous paths are generated and executed using custom algorithems and Jaci's Pathfinder.
+- Automatic alignment to vision targets using Pixy - custom self implemented algorithms to calculate robot position (x, y, theta) relative to the targets.
+- Autonomous paths are generated and executed using custom algorithms and Jaci's Pathfinder.
 - Calibration modes - Custom calibration modes for each robot mechanism that disable normal robot operation, use special controller button mapping and open Shuffleboard tabs with all the relevant data.
 
 ## Setup
